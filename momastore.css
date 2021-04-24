@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}
+img{
+    max-width:100%;
+}
+a:link{
+    color:black;
+}
+
+#top-bar{
+    background-color:black;     
+}
+
+h1, h2, h3, h4{
+    font-weight: normal;
+    font-size: 220%;
+}
+
+#top-bar-content{
+    color:white;  
+    font-size:80%;
+    width:1154px;
+    margin:0 auto;
+    padding:8px 0;
+    display: flex;
+}
+
+#top-bar-content p{
+    width:50%;
+}
+
+#top-bar-content a:link{
+    color:white;
+    text-decoration:none;
+}
+
+#header{
+    padding:40px 0;
+    display:flex;   
+}
+
+#header div{
+    width:50%;
+}
+
+#header-right input{
+    border:none;
+    border-bottom:1px solid black;
+}
+
+#navigation{
+    margin-bottom: 10px;
+}
+
+#navigation ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+#navigation a:link{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    text-decoration: underline;
+}
+
+#featured-products{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    border-bottom: solid 1px lightgray;
+    padding-bottom:40px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.container{
+    width:1154px;
+    margin:0 auto;
+}
+
+#header-image img{
+    max-width:100%;
+}
+
+.box{
+    width:32%;
+    text-align:center;
+}
+
+.box img{
+    max-width: 100%;
+}
+
+.box h3{
+    margin:16px 0;
+}
+#best-sellers{
+    margin-top: 20px;
+    text-align:center;
+    padding: 20px 0;
+}
+#best-sellers-items{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    justify-content:space-between;
+}
+
+#best-sellers-items .box img{
+    max-width:50%;
+}
+
+.button-link:link, .button-link:visited{
+    padding:20px;
+    border:2px solid black;
+    color:black;
+    text-decoration: none;
+}
+
+.button-link:hover{
+    padding:20px;
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    text-decoration: none;
+}
+
+.mb{
+    margin-bottom: 60px;
+}
+
+#eco{
+    width:90%;
+    background-image: url(https://store.moma.org/on/demandware.static/-/Sites/default/dwd702dd6c/images/20210420_4_EcoFriendly_d.jpg);
+    text-align: left;
+    color: white;
+    padding: 60px;
+    background-size:cover;
+}
+
+#eco-content{
+    width:40%;
+}
+
+#eco-content h1{
+    margin-bottom:20px;
+}
+
+#eco-content p{
+    margin-bottom:40px;
+}

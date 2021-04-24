@@ -1,0 +1,47 @@
+
+body{
+    background-color:beige;
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+}
+
+#container{
+    width:1240px;
+    background-color:white;
+    margin:0px auto;
+    padding:20px 10px;
+}
+
+#welcome, #navigation{
+    text-align:center;
+}
+
+#navigation ul{
+    list-style-type:none;
+    padding:0px;
+}
+
+#navigation ul li{
+    display:inline;
+}
+
+#content{
+    display:flex;
+}
+
+#left{
+    width:70%;
+    padding-right: 20px;
+}
+
+#left img{
+    max-width: 70%;
+}
+
+#right{
+    width:30%;
+}
+
+#right img{
+    max-width: 70%;
+}
