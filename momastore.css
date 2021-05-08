@@ -37,7 +37,7 @@ h1, h2, h3, h4{
     width:50%;
 }
 
-#top-bar-content a:link{
+#top-bar-content a:link, #top-bar-content a:visited{
     color:white;
     text-decoration:none;
 }
@@ -69,9 +69,10 @@ h1, h2, h3, h4{
     justify-content:space-between;
 }
 
-#navigation a:link{
+#navigation a:link, #navigation a:visited{
     font-weight: 600;
     text-decoration: none;
+    color:black;
 }
 
 #navigation a:hover{
@@ -165,4 +166,24 @@ h1, h2, h3, h4{
 
 #eco-content p{
     margin-bottom:40px;
+}
+
+#exclusive{
+    margin: 40px 0;
+    border-top: 1px solid lightgray;
+    padding: 40px 0
+}
+
+#exclusive-content{
+    display:flex;
+}
+
+#discover{
+    display:flex;   
+}
+
+#discover-text{
+    width:40%;
+    text-align: left;
+    padding-right: 20px;
 }
