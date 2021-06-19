@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        form div{
+           margin-bottom: 20px; 
+        }
+        label{
+            display:block;
+        }
+        input[type=text], input[type=email], input[type=number], input[type=password] {
+            width:400px;
+            line-height: 20px;
+            padding:4px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form in HTML</h2>
+    <div>
+        <form action="" method="get">
+            <div>
+                <label for="id_fullname">Your Full Name</label>
+                <input type="text" id="id_fullname" required="true" name="fullname" placeholder="Enter your name">
+                
+            </div>
+            <div>
+                <label for="id_email">Email</label>
+                <input type="email" name="email" id="id_email" placeholder="Enter your email">
+               
+            </div>
+            <div>
+                <label for="id_age">Age</label>
+                <input type="number" name="age" id="id_age">
+            </div>
+            <div>
+                <label for="id_password">Password</label>
+                <input type="password" name="password" id="id_password">
+            </div>
+            <div>
+                <label >Gender</label>
+                <input type="radio" name="gender" value="m" id=""> Male
+                <input type="radio" name="gender" value="f" id=""> Female
+                
+            </div>
+            <div>
+                <label>Hobbies</label>
+                <input type="checkbox" name="hobbies" value="coding" id=""> Coding
+                <input type="checkbox" name="hobbies" value="golf" id=""> Golf
+                <input type="checkbox" name="hobbies" value="cooking" id=""> Cooking
+            </div>
+            <div>
+                <label for="id_location">Location</label>
+                <select name="location" id="id_location">
+                    <option value="">----- select a location -----</option>
+                    <option value="jkt">Jakarta</option>
+                    <option value="sby">Surabaya</option>
+                    <option value="dps">Denpasar</option>
+                </select>
+            </div>
+            <div>
+                <label for="id_comment">Comment</label>
+                <textarea name="comment" id="id_comment" cols="60" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="id_picture">Picture</label>
+                <input type="file" name="picture" id="id_picture"> 
+            </div>
+            <div>
+                <button type="submit">Submit</button> <button type="reset">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

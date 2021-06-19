@@ -187,3 +187,17 @@ h1, h2, h3, h4{
     text-align: left;
     padding-right: 20px;
 }
+
+#shipping{
+    text-align:center;
+    margin:20px 0 0 0;
+    background-color:black;
+    color:white;
+    padding:40px 0;
+}
+
+#footer{
+    background-color:rgb(205, 205, 205);
+    text-align:center;
+    padding:40px 0;
+}
